@@ -17,10 +17,10 @@ package:
 
 functions:
   get_joke:
-    handler: handler.get_joke
+    handler: handler.rivr
     events:
       - http:
-          path: joke
+          path: rivr
           method: get
 
 plugins:

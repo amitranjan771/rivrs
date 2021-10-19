@@ -1,7 +1,7 @@
 import json
 
 
-def get_joke(event, context):
+def rivr(event, context):
     body = {
         "message": "This is a test for cicd pipeline from github to aws lambda function"
     }
