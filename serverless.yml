@@ -16,10 +16,6 @@ package:
 functions:
   rivr:
     handler: handler.rivr
-    package:
-      individulally: true
-      patterns: # Specify the directories and files which should be included in the deployment package for this specific function.
-        - src/rivr/handler.py
     events:
       - http:
           path: rivr

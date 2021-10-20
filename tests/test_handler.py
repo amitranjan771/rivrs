@@ -1,6 +1,6 @@
 
 import unittest
-from src.handler import rivr
+from handler import rivr
 
   
 class TestRivrS(unittest.TestCase):
