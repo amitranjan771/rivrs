@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
         - uses: actions/checkout@main
-        - name: Initialize Python 3.7
+        - name: Initialize python
         uses: actions/setup-python@v1
         with:
             python-version: 3.7
