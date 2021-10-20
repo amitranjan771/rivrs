@@ -16,8 +16,8 @@ package:
     - node_modules/**
 
 functions:
-  get_joke:
-    handler: src.handler.rivr
+  rivr:
+    handler: src.rivr.handler.rivr
     events:
       - http:
           path: rivr
