@@ -15,7 +15,7 @@ package:
 
 functions:
   rivr:
-    handler: handler.rivr
+    handler: src.rivr.handler.rivr
     package:
       patterns: # Specify the directories and files which should be included in the deployment package for this specific function.
         - src/**
