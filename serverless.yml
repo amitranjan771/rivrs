@@ -17,7 +17,7 @@ package:
 
 functions:
   rivr:
-    handler: src.rivr.handler.rivr
+    handler: handler.rivr
     events:
       - http:
           path: rivr
