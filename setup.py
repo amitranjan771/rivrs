@@ -8,6 +8,6 @@ setup(
     url="https://2qlu4yb1d4.execute-api.eu-central-1.amazonaws.com/dev/rivr",
     description="A sample python app for rivr",
     packages=find_packages(),
+    package_dir={"": "src"},
     install_requires=[],
-    entry_points={"console_scripts": ["rivr = src.handler:rivr"]},
 )
