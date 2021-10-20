@@ -1,10 +1,9 @@
 name: Publish Python distributions to PyPI and TestPyPI
 
 on:
-    push:
-    branches: [ main ]
-    pull_request:
-    branches: [ main ]
+    branches:
+      - main
+  pull_request:
 
 jobs:
     build-n-publish:
@@ -13,7 +12,7 @@ jobs:
     steps:
         - uses: actions/checkout@main
         - name: Initialize python
-        uses: actions/setup-python@v1
+          uses: actions/setup-python@v1
         with:
             python-version: 3.7
         - name: Install dependencies
